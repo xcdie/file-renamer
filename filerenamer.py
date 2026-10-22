@@ -18,6 +18,7 @@ def bulk_rename(directory_path, prefix):
       new_name = f'{prefix}_{counter}{file_ext}'
       new_path = os.path.join(directory_path, new_name)
 
+
       os.rename(full_path, new_path)
       print(f'Renamed: {filename} -> {new_name}')
       counter += 1
