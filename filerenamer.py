@@ -1,6 +1,5 @@
 import os
 
-
 def bulk_rename(directory_path, prefix):
   if not os.path.exists(directory_path):
     print(f'Error: The directory {directory_path} does not exist.')
